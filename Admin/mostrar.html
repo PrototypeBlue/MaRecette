@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+<body>
+    
+<? php 
+
+include "db.php";
+
+ modall(1);
+
+?>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        Select image to upload:
+        <input type="file" name="image"/>
+        <input type="submit" name="submit" value="UPLOAD"/>
+        <div class="photo">
+
+                        <img src="" ALT="No hay foto"
+                            onerror="this.src=`images/logo.png`" />
+                    </div>
+        
+        <img src="view.php?id=2" alt="Imagen desde Blob" />
+    </form>
+</body>
+</html>
