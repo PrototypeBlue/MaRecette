@@ -305,10 +305,9 @@ if(isset($_GET['id']))
 	
 }
 
+//AQUI SE SELECCIONA LA CANTIDAD DE INGREDIENTES DE LA RECETA
+
 $query="SELECT `item_receta`, count(`item_ing`) as cp FROM `ing_receta` GROUP BY ing_receta.item_receta";
-
-
-
 $indice=0;
 //echo $user_id;
 
@@ -326,9 +325,9 @@ $cantdisp = "";
 
 while ($query2 = $result->fetch_assoc())
 {  $id_receta=$query2['item_receta'];
-	$cp=$query2['cp'];
+	$cp=$query2['cp'];	
 
-	
+	// COMPARA SI LA CANTIDAD DE INGREDIENTES QUE SE NECESITA SI ESTÁ ACORDE AL INVENTARIO DEL USUARIO
   $query3="SELECT count(*) as caingrecusr FROM `ing_receta` LEFT JOIN orderdetails ON orderdetails.item_id=ing_receta.item_ing where ing_receta.item_receta=$id_receta and orderdetails.user_id=$user_id and orderdetails.order_quantity >= ing_receta.cantidad_ing_receta";
   
   $result2=mysqli_query($dbcon,$query3);
