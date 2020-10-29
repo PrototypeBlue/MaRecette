@@ -27,7 +27,7 @@ exit();
 $saveaccount="insert into users (user_email,user_password,user_firstname,user_lastname,user_address) VALUE ('$user_email','$user_password','$user_firstname','$user_lastname','$user_address')";
 mysqli_query($dbcon,$saveaccount);
 echo "<script>alert('Datos guardados exitosamente, Ahora puede iniciar sesion!')</script>";				
-echo "<script>window.open('index.php','_self')</script>";
+echo "<script>window.open('index.html','_self')</script>";
 
 
 				

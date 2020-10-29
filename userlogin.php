@@ -20,7 +20,6 @@ if(isset($_POST['user_login']))
 {
     $user_email=$_POST['user_email'];
     $user_password=$_POST['user_password'];
-	
 
     $check_user="select `user_id`, `user_email`, `user_password`, `user_firstname`, `user_lastname`, `user_address` FROM `users`  WHERE user_email='$user_email' AND user_password='$user_password'";
 
