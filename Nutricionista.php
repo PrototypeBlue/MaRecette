@@ -32,30 +32,38 @@
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('images/food.jpg');">
 			<div class="wrap-login100">
-				<form id="loginform" class="login100-form validate-form" role="form" method="post" action="adminlogin.php">
+				<form class="login100-form validate-form" role="form" method="post" action="adminlogin.php">
 					<span class="login100-form-logo" >
 						<img class=" imagen" src="images/Mare.jpg">
 					</span>
 
 					<span class="login100-form-title p-b-34 p-t-27">
-						¡Recupera tu contraseña!
+						Iniciar sesión
 					</span>
-                    <div class="wrap-input100 validate-input" data-validate = "Enter email">
-						<input  id="email" class="input100" type="email" name="email" placeholder="Ingresar correo">
+
+					<div class="wrap-input100 validate-input" data-validate = "Enter admin_username">
+						<input class="input100" type="text" name="admin_username" placeholder="Ingresar usuario">
 						<span class="focus-input100" data-placeholder="&#xf207;"></span>
 					</div>
 
+					<div class="wrap-input100 validate-input" data-validate="Enter admin_password">
+						<input class="input100" type="password" name="admin_password" placeholder="Ingresar contraseña">
+						<span class="focus-input100" data-placeholder="&#xf191;"></span>
+					</div>
+
+					<div class="contact100-form-checkbox">
+						<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+						<label class="label-checkbox100" for="ckb1">
+							Recordar datos
+						</label>
+					</div>
+
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
-							Enviar correo
+						<button class="login100-form-btn" name="admin_login">
+							Iniciar sesión
 						</button>
 					</div>
 
-					<div class="text-center p-t-90">
-						<a class="txt1" href="login.php">
-							Volver atrás
-						</a>
-					</div>
 				</form>
 			</div>
 		</div>

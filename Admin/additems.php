@@ -4,7 +4,7 @@ session_start();
 if(!$_SESSION['admin_username'])
 {
 
-    header("Location: ../index.php");//redirect to login page to secure the welcome page without login access.
+    header("Location: ../index.html");//redirect to login page to secure the welcome page without login access.
 }
 
 ?>
@@ -24,7 +24,7 @@ $item_qty = $_POST['item_qty'];
     if(mysqli_num_rows($run_query)>0)
     {
 echo "<script>alert('Item is already exist, Please try another one!')</script>";
- echo"<script>window.open('index.php','_self')</script>";
+ echo"<script>window.open('index.html','_self')</script>";
 exit();
     }
  
