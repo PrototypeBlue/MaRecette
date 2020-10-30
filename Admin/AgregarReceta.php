@@ -11,7 +11,7 @@ $ic66='/store/Admin/'.$_SESSION['ic6'];
 if(!$_SESSION['admin_username'])
 {
 
-    header("Location: ../index.php");
+    header("Location: ../index.html");
 }
 
 if(isset($_POST['btn_save_updates']))
