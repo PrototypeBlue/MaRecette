@@ -269,7 +269,7 @@ if(!$_SESSION['user_email'])
 				<div id="page-wrapper">
 
 			 
-			<div class="alert alert-default" style="color:white;background-color:#008CBA">
+			<div class="alert alert-default" style="color:white;background-color:#4d1522">
          <center><h3> <span class="glyphicon glyphicon-shopping-cart"></span> Ingredientes registrados</h3></center>
         </div>
 			
@@ -378,7 +378,7 @@ echo "</ul></center>";
 			
 			<div class="alert alert-default" style="background-color:#142f28;">
                        <p style="color:white;text-align:center;">
-                       &copy 2020 Ratatouille | Todos los derechos reservados | Harry Palma
+                       &copy  MaRecette | Todos los derechos reservados | 2020
 						</p>
                         
                     </div>
