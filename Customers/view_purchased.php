@@ -151,10 +151,10 @@ if(!$_SESSION['user_email'])
                 </button>
                 <a class="navbar-brand" href="index.php"><?php echo $razsoc?></a>
             </div>
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <div class="collapse navbar-collapse navbar-ex1-collapse" style="background-color:#142f28;">
             <?php include("mlateral.php") ?>
 					<li class="dropdown user-dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class='glyphicon glyphicon-shopping-cart'></span> Total Price Ordered: &#36; <?php echo $total; ?> </b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"></a>
 
                     </li>
 
@@ -174,7 +174,7 @@ if(!$_SESSION['user_email'])
         <div id="page-wrapper">
 
 
-			<div class="alert alert-default" style="color:white;background-color:#008CBA">
+			<div class="alert alert-default" style="color:white;background-color:#4d1522">
          <center><h3> <span class="fa fa-cart-plus"></span> Inventario de ingredientes</h3></center>
         </div>
 
