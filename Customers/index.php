@@ -158,7 +158,7 @@ include "../Admin/db.php";
              <a href="canastas.php">  <img src="img/canasta1.jpg" width=200 height=200> </a>
                
                
-               <center><h1>Subir archivo facultad</h1></center>
+               <center><h1>Subir archivo </h1></center>
 	<center><form action="sube.php" method="post" enctype="multipart/form-data">
 		<input type="file" name="archivo">
 		<input class="form-control" type="hidden" name="user_id" value="<?php echo $user_id; ?>" />
