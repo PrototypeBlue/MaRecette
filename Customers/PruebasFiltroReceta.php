@@ -349,9 +349,9 @@ while ($query2 = $result->fetch_assoc())
 		$can = $query6['candisp'];
 		
 		echo "<div class='col-sm-3'><div class='panel panel-default' style='border-color:#008CBA;'>
-		<div class='panel-heading' style='color:white;background-color : #033c73;'>
+		<div class='panel-heading' style='color:white;background-color : #508577;'>
 		<center> 
-		<textarea style='text-align:center;background-color: white;' class='form-control' rows='1' disabled>".$nombre."</textarea>
+		<textarea style='text-align:center;background-color: #DF3B60;' class='form-control' rows='1' disabled>".$nombre."</textarea>
 		</center>
 		</div>
 	<div class='panel-body'>

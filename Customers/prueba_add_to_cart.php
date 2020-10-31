@@ -88,9 +88,9 @@ $dbcon=new mysqli("localhost","root","","servido2_store"); //servidor, usuario d
     
 </head>
 <body>
-    <div id="wrapper">
+    <div id="wrapper" >
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="navbar-header">
+            <div class="navbar-header" style="background-color:#142f28;">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -99,11 +99,11 @@ $dbcon=new mysqli("localhost","root","","servido2_store"); //servidor, usuario d
                 </button>
                 <a class="navbar-brand" href="index.php"><?php echo $razsoc?></a>
             </div>
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav side-nav">
-                <li class="active"><a href="index.php"> &nbsp; <span class='glyphicon glyphicon-home'></span> Inicio</a></li>
-                <li><a href="PruebasFiltroReceta.php?id=1"> &nbsp; <span class='glyphicon glyphicon-shopping-cart'></span> Recetas disponibles</a></li>
-					<li><a href="shop.php?id=1"> &nbsp; <span class='glyphicon glyphicon-shopping-cart'></span> Ingredientes</a></li>
+            <div class="collapse navbar-collapse navbar-ex1-collapse" style="background-color:#142f28;">
+                <ul class="nav navbar-nav side-nav"style="background-color:#303030;">
+                <li class="active"><a href="index.php" style="background-color:#303030;"> &nbsp; <span class='glyphicon glyphicon-home'></span> Inicio</a></li>
+                <li><a href="PruebasFiltroReceta.php?id=1" style="background-color:#303030;" > &nbsp; <span class='glyphicon glyphicon-shopping-cart'></span> Recetas disponibles</a></li>
+					<li><a href="shop.php?id=1" style="background-color:#303030;"> &nbsp; <span class='glyphicon glyphicon-shopping-cart'></span> Ingredientes</a></li>
 					<li><a href="cart_items.php"> &nbsp; <span class='fa fa-cart-plus'></span> Inventario de ingredientes</a></li>
 					<li><a href="recetas.php"> &nbsp; <span class='glyphicon glyphicon-list-alt'></span> Recetas</a></li>
 					<li><a href="view_purchased.php"> &nbsp; <span class='glyphicon glyphicon-eye-open'></span> Historial de recetas</a></li>
@@ -112,7 +112,7 @@ $dbcon=new mysqli("localhost","root","","servido2_store"); //servidor, usuario d
 					
                     
                 </ul>
-                <ul class="nav navbar-nav navbar-right navbar-user">
+                <ul class="nav navbar-nav navbar-right navbar-user" style="background-color:#142f28;">
                     <li class="dropdown messages-dropdown">
                         <a href="#"><i class="fa fa-calendar"></i>  <?php
                             date_default_timezone_set("America/New_York");
@@ -122,7 +122,7 @@ $dbcon=new mysqli("localhost","root","","servido2_store"); //servidor, usuario d
                         
                     </li>
 					<li class="dropdown user-dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class='glyphicon glyphicon-shopping-cart'></span> Total Price Ordered: &#36;; <?php echo $total; ?> </b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"></a>
                        
                     </li>
 					
@@ -158,8 +158,8 @@ $dbcon=new mysqli("localhost","root","","servido2_store"); //servidor, usuario d
 	}
 	?>
    
-    <div class="alert alert-default" style="color:white;background-color:#008CBA">
-         <center><h3> <span class="glyphicon glyphicon-info-sign"></span> Detalle Orden </h3></center>
+    <div class="alert alert-default" style="color:white;background-color:#4d1522 ">
+         <center><h3> <span class="glyphicon glyphicon-info-sign"></span> Receta </h3></center>
         </div>
 
 
@@ -271,9 +271,9 @@ $dbcon=new mysqli("localhost","root","","servido2_store"); //servidor, usuario d
 					
 					<br />
 			
-		            	<div class="alert alert-default" style="background-color:#033c73;">
+		            	<div class="alert alert-default" style="background-color:#142f28;">
                        <p style="color:white;text-align:center;">
-                       &copy 2020 Ratatouille | Todos los derechos reservados | Harry Palma
+                       &copy MaRecette | Todos los derechos reservados | 2020
 						</p>
                         
                     </div>

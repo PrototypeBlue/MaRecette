@@ -43,7 +43,7 @@ include "../Admin/db.php";
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $razsoc?></title>
-	 <link rel="shortcut icon" href="../assets/img/logosz.png" type="image/x-icon" />
+	 <link rel="shortcut icon" href="../images/Mare.jpg">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="css/local.css" />
@@ -158,7 +158,7 @@ include "../Admin/db.php";
              <a href="canastas.php">  <img src="img/canasta1.jpg" width=200 height=200> </a>
                
                
-               <center><h1>Subir archivo </h1></center>
+               <center><h1>Subir archivo  </h1></center>
 	<center><form action="sube.php" method="post" enctype="multipart/form-data">
 		<input type="file" name="archivo">
 		<input class="form-control" type="hidden" name="user_id" value="<?php echo $user_id; ?>" />

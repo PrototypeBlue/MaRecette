@@ -234,7 +234,7 @@ if(!$_SESSION['user_email'])
     
 </head>
 <body >
-    <div id="wrapper">
+    <div id="wrapper" >
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -314,9 +314,9 @@ while ($query2 = $result->fetch_assoc())
 {	$indice=$query2['item_id'].'$'.$id;
 
 	echo "<div class='col-sm-3'><div class='panel panel-default' style='border-color:#008CBA;'>
-            <div class='panel-heading' style='color:white;background-color : #033c73;'>
+            <div class='panel-heading' style='color:white;background-color : #508577;'>
             <center> 
-			<textarea style='text-align:center;background-color: white;' class='form-control' rows='1' disabled>".$query2['item_name']."</textarea>
+			<textarea style='text-align:center;background-color:#DF3B60;' class='form-control' rows='1' disabled>".$query2['item_name']."</textarea>
 			</center>
             </div>
            <div class='panel-body'>
@@ -328,7 +328,7 @@ while ($query2 = $result->fetch_assoc())
 	
 					
 				
-					<a class='btn btn-block btn-danger' href='prueba_add_to_cart.php?cart=".$indice."'><span class='glyphicon glyphicon-shopping-cart'></span> Agregar a inventario</a>
+					<a class='btn btn-block btn-danger'  href='prueba_add_to_cart.php?cart=".$indice."'><span class='glyphicon glyphicon-shopping-cart'></span> Agregar a inventario</a>
             </div>
           </div>
         </div>";
