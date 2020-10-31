@@ -67,10 +67,10 @@ include "../Admin/db.php";
                 <a class="navbar-brand" href="index.php"><?php echo $razsoc?></a>
             </div>
            <!----colocar aqui menu lateral ---->
-           <div class="collapse navbar-collapse navbar-ex1-collapse">
+           <div class="collapse navbar-collapse navbar-ex1-collapse" style="background-color:#142f28;">
                  <?php include("mlateral.php") ?>
-                   <li class="dropdown user-dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class='glyphicon glyphicon-shopping-cart'></span> Total Ordenado: 	&#36; <?php echo $total; ?> </b></a>
+                   <li class="dropdown user-dropdown" >
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">  	 </a>
 
                     </li>
 
@@ -154,11 +154,11 @@ include "../Admin/db.php";
 
 
 		<br />
-			 <div class="alert alert-success">
+			 <div class="alert alert-success" >
              <a href="canastas.php">  <img src="img/canasta1.jpg" width=200 height=200> </a>
                
                
-               <center><h1>Subir archivo facultad</h1></center>
+               <center><h1>Subir archivo </h1></center>
 	<center><form action="sube.php" method="post" enctype="multipart/form-data">
 		<input type="file" name="archivo">
 		<input class="form-control" type="hidden" name="user_id" value="<?php echo $user_id; ?>" />
@@ -173,9 +173,9 @@ include "../Admin/db.php";
 <!-- footer -->
 					<br />
                     <br />
-			<div class="alert alert-default" style="background-color:#033c73;">
+			<div class="alert alert-default" style="background-color:#142f28;">
                        <p style="color:white;text-align:center;">
-                       &copy 2020 Ratatouille | Todos los derechos reservados | Harry Palma
+                       &copy  MaRecette | Todos los derechos reservados | 2020
 						</p>
 
                     </div>

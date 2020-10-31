@@ -1,10 +1,10 @@
 
 
-                <ul class="nav navbar-nav side-nav">
-                    <li class="active"><a href="index.php"> &nbsp; <span class='glyphicon glyphicon-home'></span> Inicio</a></li>
+                <ul class="nav navbar-nav side-nav" style="background-color:#303030;">
+                    <li class="active"><a href="index.php" style="background-color:#303030;"> &nbsp; <span class='glyphicon glyphicon-home'></span> Inicio</a></li>
                     <li><a href="PruebasFiltroReceta.php?id=1"> &nbsp; <span class='glyphicon glyphicon-shopping-cart'></span> Recetas disponibles</a></li>
 					<li><a href="PruebaNuevaLista.php?"> &nbsp; <span class='glyphicon glyphicon-shopping-cart'></span> Ingredientes</a></li>
-					<li><a href="cart_items.php"> &nbsp; <span class='fa fa-cart-plus'></span> Inventario de ingredientes</a></li>
+					<li><a href="cart_items.php"> &nbsp; <span class='fa fa-cart-plus'></span> Inventario </a></li>
 				    <li><a href="recetas.php?id=1"> &nbsp; <span class='glyphicon glyphicon-list-alt'></span> Recetas</a></li>
 					<li><a href="view_purchased.php"> &nbsp; <span class='glyphicon glyphicon-eye-open'></span> Historial de recetas</a></li>
 					<li><a data-toggle="modal" data-target="#setAccount"> &nbsp; <span class='fa fa-gear'></span> Configuracion Cuenta</a></li>
