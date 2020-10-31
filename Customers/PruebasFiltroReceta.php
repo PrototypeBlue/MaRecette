@@ -235,17 +235,17 @@ if(!$_SESSION['user_email'])
 </head>
 <body >
     <div id="wrapper">
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="navbar-header">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" >
+            <div class="navbar-header" >
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php"><?php echo $razsoc?></a>
+                <a class="navbar-brand" href="index.php" style="background-color:#142f28;"><?php echo $razsoc?></a>
             </div>
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <div class="collapse navbar-collapse navbar-ex1-collapse" style="background-color:#142f28;">
 			<?php include("mlateral.php") ?>
 					<li class="dropdown user-dropdown">
                        
@@ -261,7 +261,7 @@ if(!$_SESSION['user_email'])
                             <li><a href="logout.php"><i class="fa fa-power-off"></i> Log Out</a></li>
                         </ul>
                     </li>
-                </ul>
+             
             </div>
         </nav>
 
@@ -269,7 +269,7 @@ if(!$_SESSION['user_email'])
 				<div id="page-wrapper">
 
 			 
-			<div class="alert alert-default" style="color:white;background-color:#008CBA">
+			<div class="alert alert-default" style="color:white;background-color:#4d1522 ">
          <center><h3> <span class="glyphicon glyphicon-shopping-cart"></span> Ingredientes registrados</h3></center>
         </div>
 			
@@ -349,9 +349,9 @@ while ($query2 = $result->fetch_assoc())
 		$can = $query6['candisp'];
 		
 		echo "<div class='col-sm-3'><div class='panel panel-default' style='border-color:#008CBA;'>
-		<div class='panel-heading' style='color:white;background-color : #033c73;'>
+		<div class='panel-heading' style='color:white;background-color : #508577;'>
 		<center> 
-		<textarea style='text-align:center;background-color: white;' class='form-control' rows='1' disabled>".$nombre."</textarea>
+		<textarea style='text-align:center;background-color: #DF3B60;' class='form-control' rows='1' disabled>".$nombre."</textarea>
 		</center>
 		</div>
 	<div class='panel-body'>
@@ -425,9 +425,9 @@ echo "</ul></center>";
 					
 					<br />
 			
-			<div class="alert alert-default" style="background-color:#033c73;">
+			<div class="alert alert-default"style="background-color:#142f28;">
                        <p style="color:white;text-align:center;">
-                       &copy 2020 Ratatouille | Todos los derechos reservados | Harry Palma
+                       &copy  MaRecette | Todos los derechos reservados | 2020
 						</p>
                         
                     </div>

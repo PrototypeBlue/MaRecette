@@ -71,7 +71,7 @@ if(isset($_GET['delete_id']))
                 </button>
                 <a class="navbar-brand" href="index.php"><?php echo $razsoc?></a>
             </div>
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <div class="collapse navbar-collapse navbar-ex1-collapse" style="background-color:#142f28;">
 			<?php include("mlateral.php") ?>
 					<li class="dropdown user-dropdown">
                        
@@ -102,9 +102,9 @@ if(isset($_GET['delete_id']))
         
         
 
-         <div class="alert alert-danger">
+         <div class="alert alert-danger" style="color:white ;background-color:#4d1522;">
                     
-                      <center> <h3><strong> Ingredientes </strong> </h3></center>
+                      <center> <h3 ><strong> Ingredientes </strong> </h3></center>
                       
                       </div>
                       
@@ -189,9 +189,9 @@ else
 
 
 ?>
-			<div class="alert alert-default" style="background-color:#033c73;">
+			<div class="alert alert-default" style="background-color:#142f28;">
                        <p style="color:white;text-align:center;">
-					   &copy 2020 Ratatouille | Todos los derechos reservados | Harry Palma
+					   &copy MaRecette | Todos los derechos reservados | 2020
 						</p>
                         
                     </div>

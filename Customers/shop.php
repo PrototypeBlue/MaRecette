@@ -245,7 +245,7 @@ if(!$_SESSION['user_email'])
                 </button>
                 <a class="navbar-brand" href="index.php"><?php echo $razsoc?></a>
             </div>
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <div class="collapse navbar-collapse navbar-ex1-collapse" >
 			<?php include("mlateral.php") ?>
 					<li class="dropdown user-dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class='glyphicon glyphicon-shopping-cart'></span> Total Price Ordered: &#36; <?php echo $total; ?> </b></a>
@@ -269,7 +269,7 @@ if(!$_SESSION['user_email'])
 				<div id="page-wrapper">
 
 			 
-			<div class="alert alert-default" style="color:white;background-color:#008CBA">
+			<div class="alert alert-default" style="color:white;background-color:#18655b ">
          <center><h3> <span class="glyphicon glyphicon-shopping-cart"></span> Ingredientes registrados</h3></center>
         </div>
 			
@@ -314,9 +314,9 @@ while ($query2 = $result->fetch_assoc())
 {	$indice=$query2['item_id'].'$'.$id;
 	
 	echo "<div class='col-sm-3'><div class='panel panel-default' style='border-color:#008CBA;'>
-            <div class='panel-heading' style='color:white;background-color : #033c73;'>
+            <div class='panel-heading' style='color:white;background-color : #508577;'>
             <center> 
-			<textarea style='text-align:center;background-color: white;' class='form-control' rows='1' disabled>".$query2['item_name']."</textarea>
+			<textarea style='text-align:center;background-color: #DF3B60; color= white' class='form-control' rows='1' disabled>".$query2['item_name']."</textarea>
 			</center>
             </div>
            <div class='panel-body'>
@@ -382,7 +382,7 @@ echo "</ul></center>";
 			
 			<div class="alert alert-default" style="background-color:#033c73;">
                        <p style="color:white;text-align:center;">
-					   &copy 2020 Ratatouille | Todos los derechos reservados | Harry Palma
+					   &copy MaRecette | Todos los derechos reservados | 2020
 						</p>
                         
                     </div>

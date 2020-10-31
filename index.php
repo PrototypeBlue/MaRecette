@@ -96,7 +96,7 @@ $dbcon->close();
                         <!-- Slider 01 -->
                         <li>
                               <h3>Productos de alta calidad</h3>
-                           <h1>QUE ESTAS ESPERANDO? COMPRA AHORA!</h1>
+                           <h1>QUE ESTAS ESPERANDO? INGRESA AHORA!</h1>
                             <a  href="#features-sec" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#ln">
                             INGRESAR
                             </a>
@@ -130,7 +130,7 @@ $dbcon->close();
                         <!-- Slider 03 -->
                         <li>
                             <h3>Productos de alta calidad</h3>
-                           <h1>TENEMOS TODAS LAS MARCAS</h1>
+                           <h1>TENEMOS VARIADAS RECETAS</h1>
                              <a  href="#features-sec" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#ln">
                                 INGRESAR
                             </a>
