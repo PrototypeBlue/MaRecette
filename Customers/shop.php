@@ -316,7 +316,7 @@ while ($query2 = $result->fetch_assoc())
 	echo "<div class='col-sm-3'><div class='panel panel-default' style='border-color:#008CBA;'>
             <div class='panel-heading' style='color:white;background-color : #508577;'>
             <center> 
-			<textarea style='text-align:center;background-color: #DF3B60; color= white' class='form-control' rows='1' disabled>".$query2['item_name']."</textarea>
+			<textarea style='text-align:center;background-color: #DF3B60;' class='form-control' rows='1' disabled>".$query2['item_name']."</textarea>
 			</center>
             </div>
            <div class='panel-body'>
