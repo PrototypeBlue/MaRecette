@@ -314,9 +314,9 @@ while ($query2 = $result->fetch_assoc())
 {	$indice=$query2['item_id'].'$'.$id;
 
 	echo "<div class='col-sm-3'><div class='panel panel-default' style='border-color:#008CBA;'>
-            <div class='panel-heading' style='color:white;background-color : #508577;'>
+            <div class='panel-heading' style='color:white;background-color : #42700d;'>
             <center> 
-			<textarea style='text-align:center;background-color:#DF3B60;' class='form-control' rows='1' disabled>".$query2['item_name']."</textarea>
+			<textarea style='text-align:center;background-color:#D97289;' class='form-control' rows='1' disabled>".$query2['item_name']."</textarea>
 			</center>
             </div>
            <div class='panel-body'>
@@ -348,11 +348,11 @@ $total=ceil($rows/$limit);
 echo "<br /><ul class='pager'>";
 if($id>1)
 {
-	echo "<li><a style='color:white;background-color : #033c73;' href='?id=".($id-1)."'>Pagina Anterior</a><li>";
+	echo "<li><a style='color:white;background-color : #24AFAF;' href='?id=".($id-1)."'>Pagina Anterior</a><li>";
 }
 if($id!=$total)
 {
-	echo "<li><a style='color:white;background-color : #033c73;' href='?id=".($id+1)."' class='pager'>Proxima Pagina</a></li>";
+	echo "<li><a style='color:white;background-color : #6BC0C0;' href='?id=".($id+1)."' class='pager'>Proxima Pagina</a></li>";
 }
 echo "</ul>";
 
@@ -360,7 +360,7 @@ echo "</ul>";
 echo "<center><ul class='pagination pagination-lg'>";
 		for($i=1;$i<=$total;$i++)
 		{
-			if($i==$id) { echo "<li class='pagination active'><a style='color:white;background-color : #033c73;'>".$i."</a></li>"; }
+			if($i==$id) { echo "<li class='pagination active'><a style='color:white;background-color : #6BC0C0;'>".$i."</a></li>"; }
 			
 	
 			

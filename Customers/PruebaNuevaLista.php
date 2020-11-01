@@ -110,7 +110,7 @@ if(isset($_GET['delete_id']))
                       
                       <br />
                       
-                      <div class="table-responsive">
+                      <div class="table-responsive" >
         <table class="display table table-bordered" id="example" cellspacing="0" width="100%">
           <thead>
             <tr>

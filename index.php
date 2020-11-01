@@ -1,4 +1,6 @@
+
 <?php
+//PRUEBA
 error_reporting( ~E_NOTICE );
 session_start();
 $dbcon=new mysqli("localhost","root","","servido2_store"); //servidor, usuario de base de datos, contraseña del usuario, nombre de base de datos
