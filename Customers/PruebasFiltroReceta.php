@@ -397,11 +397,11 @@ $total=ceil($rows/$limit);
 echo "<br /><ul class='pager'>";
 if($id>1)
 {
-	echo "<li><a style='color:white;background-color : #054937;' href='?id=".($id-1)."'>Pagina Anterior</a><li>";
+	echo "<li><a style='color:white;background-color : #6BC0C0;' href='?id=".($id-1)."'>Pagina Anterior</a><li>";
 }
 if($id!=$total)
 {
-	echo "<li><a style='color:white;background-color : #000000;' href='?id=".($id+1)."' class='pager'>Proxima Pagina</a></li>";
+	echo "<li><a style='color:white;background-color : #6BC0C0;' href='?id=".($id+1)."' class='pager'>Proxima Pagina</a></li>";
 }
 echo "</ul>";
 
@@ -409,7 +409,7 @@ echo "</ul>";
 echo "<center><ul class='pagination pagination-lg'>";
 		for($i=1;$i<=$total;$i++)
 		{
-			if($i==$id) { echo "<li class='pagination active'><a style='color:white;background-color : #033c73;'>".$i."</a></li>"; }
+			if($i==$id) { echo "<li class='pagination active'><a style='color:white;background-color : #6BC0C0;'>".$i."</a></li>"; }
 			
 	
 			
