@@ -1,7 +1,7 @@
   
- <div class="alert alert-default" style="background-color:#033c73;">
+ <div class="alert alert-default"style="background-color:#142f28;">
        <p style="color:white;text-align:center;">
-        &copy 2020 Ratatouille | Todos los derechos reservados | Harry Palma
+        &copy MaRecette | Todos los derechos reservados | 2020
 	 </p>
 
    </div>

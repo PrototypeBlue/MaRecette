@@ -146,8 +146,8 @@ history.back();
                 </button>
                 <a class="navbar-brand" href="index.php"><?php echo $razsoc?> - Panel Administracion</a>
             </div>
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav side-nav">
+            <div class="collapse navbar-collapse navbar-ex1-collapse"  style="background-color:#142f28;">
+                <ul class="nav navbar-nav side-nav" style="background-color:#303030;">
                 <?php include("menulateral.php") ?>
 
 
@@ -172,7 +172,7 @@ history.back();
         </nav>
 
         <div id="page-wrapper">
-        <div class="alert alert-info">
+        <div class="alert alert-default" style="color:white;background-color:#4d1522">
                         
                         <center> <h3><strong>Registrar receta</strong> </h3></center>
                         
@@ -191,7 +191,7 @@ history.back();
                                     $valores = $resultado->fetch_assoc();
                                 ?>
        
-        <table class="table table-bordered table-responsive" id = "tablarecetas">
+        <table class="table table-bordered table-responsive" id = "tablarecetas" style="background-color:#DD948C;" >
 
         <tr>
     	    <td><label class="control-label">Nombre de receta</label></td>
@@ -291,7 +291,7 @@ history.back();
 	<!-- Mediul Modal -->
         <div class="modal fade" id="uploadModal" tabindex="-1" role="dialog" aria-labelledby="myMediulModalLabel">
           <div class="modal-dialog modal-md">
-            <div style="color:white;background-color:#008CBA" class="modal-content">
+            <div style="color:white;background-color:#DD948C" class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <h2 style="color:white" class="modal-title" id="myModalLabel">Cargar Items</h2>

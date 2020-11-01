@@ -153,8 +153,8 @@ if(!$_SESSION['admin_username'])
                 </button>
                 <a class="navbar-brand" href="index.php"><?php echo $razsoc?> - Administrator Panel</a>
             </div>
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav side-nav">
+            <div class="collapse navbar-collapse navbar-ex1-collapse" style="background-color:#142f28;">
+                <ul class="nav navbar-nav side-nav" style="background-color:#303030;">
                 <?php include("menulateral.php") ?>
 					
                     
@@ -200,13 +200,13 @@ if(!$_SESSION['admin_username'])
         <?php
 	}
 	?>
-			 <div class="alert alert-info">
+			 <div class="alert alert-info" style="color:white;background-color:#4d1522">
                         
                           <center> <h3><strong>Actualizar Item</strong> </h3></center>
 						  
 						  </div>
 						  
-						 <table class="table table-bordered table-responsive">
+						 <table class="table table-bordered table-responsive" style="background-color:#DD948C;">
 	 
     <tr>
     	<td><label class="control-label">Nombre Item.</label></td>

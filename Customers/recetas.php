@@ -400,7 +400,7 @@ echo "</ul></center>";
 	<!-- Mediul Modal -->
         <div class="modal fade" id="setAccount" tabindex="-1" role="dialog" aria-labelledby="myMediulModalLabel">
           <div class="modal-dialog modal-sm">
-            <div style="color:white;background-color:#008CBA" class="modal-content">
+            <div style="color:white;background-color:#DD948C" class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <h3 style="color:white" class="modal-title" id="myModalLabel">Configuracion Cuenta</h3>
