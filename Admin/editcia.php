@@ -120,8 +120,8 @@ if(!$_SESSION['admin_username'])
                 </button>
                 <a class="navbar-brand" href="index.php"><?php echo $razsoc?> - Administrator Panel</a>
             </div>
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav side-nav">
+            <div class="collapse navbar-collapse navbar-ex1-collapse" style="background-color:#142f28;" >
+                <ul class="nav navbar-nav side-nav" style="background-color:#303030;">
                 <?php include("menulateral.php") ?>
 					
                     
@@ -161,13 +161,13 @@ if(!$_SESSION['admin_username'])
 	
     
     
-			 <div class="alert alert-info">
+			 <div class="alert alert-default" style="color:white;background-color:#4d1522">
                         
                           <center> <h3><strong>Gestion Datos Compañia</strong> </h3></center>
 						  
 						  </div>
 						  
-						 <table class="table table-bordered table-responsive">
+						 <table class="table table-bordered table-responsive" style="background-color:#DD948C;">
 	 
     <tr>
     	<td><label class="control-label">Razon Social.</label></td>
@@ -289,7 +289,7 @@ if(!$_SESSION['admin_username'])
 	<!-- Mediul Modal -->
         <div class="modal fade" id="uploadModal" tabindex="-1" role="dialog" aria-labelledby="myMediulModalLabel">
           <div class="modal-dialog modal-md">
-            <div style="color:white;background-color:#008CBA" class="modal-content">
+            <div style="color:white;background-color:#DD948C" class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <h2 style="color:white" class="modal-title" id="myModalLabel">Subir ingrediente</h2>

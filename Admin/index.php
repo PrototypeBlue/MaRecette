@@ -45,13 +45,13 @@ include "db.php";
                 </button>
                 <a class="navbar-brand" href="index.php"><?php echo $razsoc?> - Panel Administracion</a>
             </div>
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav side-nav">
+            <div class="collapse navbar-collapse navbar-ex1-collapse" style="background-color:#142f28;">
+                <ul class="nav navbar-nav side-nav" style="background-color:#303030;">
                 <?php include("menulateral.php") ?>
 
 
                 </ul>
-                <ul class="nav navbar-nav navbar-right navbar-user">
+                <ul class="nav navbar-nav navbar-right navbar-user"  style="background-color:#142f28;">
                     <li class="dropdown messages-dropdown">
                         <a href="#"><i class="fa fa-calendar"></i>  <?php
                             $Today=date('y:m:d');
@@ -133,7 +133,7 @@ include "db.php";
 	<!-- Mediul Modal -->
         <div class="modal fade" id="uploadModal" tabindex="-1" role="dialog" aria-labelledby="myMediulModalLabel">
           <div class="modal-dialog modal-md">
-            <div style="color:white;background-color:#008CBA" class="modal-content">
+            <div style="color:white;background-color:#DD948C" class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <h2 style="color:white" class="modal-title" id="myModalLabel">Cargar Items</h2>

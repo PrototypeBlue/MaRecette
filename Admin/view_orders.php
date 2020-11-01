@@ -63,8 +63,8 @@ if(!$_SESSION['admin_username'])
                 </button>
                 <a class="navbar-brand" href="index.php"><?php echo $razsoc?> - Administrator Panel</a>
             </div>
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav side-nav">
+            <div class="collapse navbar-collapse navbar-ex1-collapse" style="background-color:#142f28">
+                <ul class="nav navbar-nav side-nav" style="background-color:#303030">
                 <?php include("menulateral.php") ?>
 					
                     
@@ -92,7 +92,7 @@ if(!$_SESSION['admin_username'])
             
 			
 	
-			 <div class="alert alert-danger">
+			 <div class="alert alert-danger" style="color:white;background-color:#4d1522">
                         
                           <center> <h3><strong>Detalles de Ordenes del Cliente</strong> </h3></center>
 						  
@@ -101,7 +101,7 @@ if(!$_SESSION['admin_username'])
 						  <br />
 						  
 						  <div class="table-responsive">
-            <table class="display table table-bordered" id="example" cellspacing="0" width="100%">
+            <table class="display table table-bordered" id="example" cellspacing="0" width="100%" style="background-color:#DD948C">
               <thead>
                 <tr>
                 <th>Numero Orden</th>

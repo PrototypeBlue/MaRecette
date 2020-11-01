@@ -33,7 +33,7 @@ if(!$_SESSION['user_email'])
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $razsoc?></title>
-	 <link rel="shortcut icon" href="../assets/img/logo.png" type="image/x-icon" />
+	 <link rel="shortcut icon" href="../images/Mare.jpg"  />
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="css/local.css" />
@@ -349,9 +349,9 @@ while ($query2 = $result->fetch_assoc())
 		$can = $query6['candisp'];
 		
 		echo "<div class='col-sm-3'><div class='panel panel-default' style='border-color:#008CBA;'>
-		<div class='panel-heading' style='color:white;background-color : #508577;'>
+		<div class='panel-heading' style='color:white;background-color : #42700d;'>
 		<center> 
-		<textarea style='text-align:center;background-color: #DF3B60;' class='form-control' rows='1' disabled>".$nombre."</textarea>
+		<textarea style='text-align:center;background-color: #D97289;' class='form-control' rows='1' disabled>".$nombre."</textarea>
 		</center>
 		</div>
 	<div class='panel-body'>
@@ -397,11 +397,11 @@ $total=ceil($rows/$limit);
 echo "<br /><ul class='pager'>";
 if($id>1)
 {
-	echo "<li><a style='color:white;background-color : #033c73;' href='?id=".($id-1)."'>Pagina Anterior</a><li>";
+	echo "<li><a style='color:white;background-color : #6BC0C0;' href='?id=".($id-1)."'>Pagina Anterior</a><li>";
 }
 if($id!=$total)
 {
-	echo "<li><a style='color:white;background-color : #033c73;' href='?id=".($id+1)."' class='pager'>Proxima Pagina</a></li>";
+	echo "<li><a style='color:white;background-color : #6BC0C0;' href='?id=".($id+1)."' class='pager'>Proxima Pagina</a></li>";
 }
 echo "</ul>";
 
@@ -409,7 +409,7 @@ echo "</ul>";
 echo "<center><ul class='pagination pagination-lg'>";
 		for($i=1;$i<=$total;$i++)
 		{
-			if($i==$id) { echo "<li class='pagination active'><a style='color:white;background-color : #033c73;'>".$i."</a></li>"; }
+			if($i==$id) { echo "<li class='pagination active'><a style='color:white;background-color : #6BC0C0;'>".$i."</a></li>"; }
 			
 	
 			
@@ -425,7 +425,7 @@ echo "</ul></center>";
 					
 					<br />
 			
-			<div class="alert alert-default"style="background-color:#142f28;">
+			<div class="alert alert-default" style="background-color:#142f28;">
                        <p style="color:white;text-align:center;">
                        &copy  MaRecette | Todos los derechos reservados | 2020
 						</p>
