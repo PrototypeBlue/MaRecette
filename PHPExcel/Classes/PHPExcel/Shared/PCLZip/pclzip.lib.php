@@ -3326,7 +3326,7 @@
 
     // ----- Read each entry
     $j_start = 0;
-    for ($i=0, $v_nb_extracted=0; $i<$v_central_dir['entries']; $i++)
+    for ($i=0, $v_nb_extracted=0; $i<$v_central_dir['entrada']; $i++)
     {
 
       // ----- Read next Central dir entry

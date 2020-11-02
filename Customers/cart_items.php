@@ -174,16 +174,16 @@ if(!$_SESSION['user_email'])
         <div id="page-wrapper"> 
 
 
-			<div class="alert alert-default" style="color:white;background-color:#4d1522">
+			<div class="alert alert-danger" style="color:white ;background-color:#4d1522;">
          <center><h3> <span class="fa fa-cart-plus"></span> Inventario de ingredientes</h3></center>
         </div>
 
 			<br />
 
 						  <div class="table-responsive">
-            <table class="display table table-bordered" id="example" cellspacing="0" width="100%">
+            <table class="display table table-bordered" id="example" cellspacing="0" width="100%" >
               <thead>
-                <tr>
+                <tr style="background-color:#154305">
                   <th>Ingrediente</th>
                   
 				  <th>Cantidad</th>
@@ -192,7 +192,7 @@ if(!$_SESSION['user_email'])
 
                 </tr>
               </thead>
-              <tbody>
+              <tbody style="background-color:white">
 			  <?php
 include("config.php");
 

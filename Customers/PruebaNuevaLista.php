@@ -113,7 +113,7 @@ if(isset($_GET['delete_id']))
                       <div class="table-responsive" >
         <table class="display table table-bordered" id="example" cellspacing="0" width="100%">
           <thead>
-            <tr>
+            <tr style="background-color:#154305">
               <th>Imagen</th>
               <th>Nombre Item</th>
               
@@ -124,7 +124,7 @@ if(isset($_GET['delete_id']))
              
             </tr>
           </thead>
-          <tbody>
+          <tbody style="background-color:white">
           <?php
 include("config.php");
 $stmt = $DB_con->prepare('SELECT * FROM items where estatus=1');

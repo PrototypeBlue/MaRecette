@@ -269,7 +269,7 @@ if(!$_SESSION['user_email'])
 				<div id="page-wrapper">
 
 			 
-			<div class="alert alert-default" style="color:white;background-color:#4d1522">
+			<div class="alert alert-danger" style="color:white ;background-color:#4d1522;">
          <center><h3> <span class="glyphicon glyphicon-shopping-cart"></span> Ingredientes registrados</h3></center>
         </div>
 			
