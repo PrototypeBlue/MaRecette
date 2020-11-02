@@ -181,9 +181,9 @@ if(!$_SESSION['user_email'])
 			<br />
 
 						  <div class="table-responsive">
-            <table class="display table table-bordered" id="example" cellspacing="0" width="100%">
+            <table class="display table table-bordered" id="example" cellspacing="0" width="100%" >
               <thead>
-                <tr>
+                <tr style="background-color:#154305">
                   <th>Ingrediente</th>
                   
 				  <th>Cantidad</th>
@@ -192,7 +192,7 @@ if(!$_SESSION['user_email'])
 
                 </tr>
               </thead>
-              <tbody>
+              <tbody style="background-color:white">
 			  <?php
 include("config.php");
 
